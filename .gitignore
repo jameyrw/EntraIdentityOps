@@ -1,0 +1,39 @@
+# Specific patterns
+.vscode/
+secrets/
+secrets.txt
+*secrets*
+datatests.txt
+config.json
+test*.ps1
+
+# Additional secret file patterns
+.env
+*.env
+.env.*
+*.secret
+*.key
+*-config.json
+local-config/
+temp-data/
+
+# PowerShell specific
+setup-env.ps1
+local-setup.ps1
+
+# Common credential files
+credentials.json
+auth.json
+tokens.txt
+api-keys.txt
+
+# Log files that might contain sensitive data
+*.log
+logs/
+debug.txt
+test-output.txt
+
+# Backup files
+*.bak
+*.backup
+*~
